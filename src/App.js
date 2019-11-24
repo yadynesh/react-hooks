@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import MyComponent from './components/use-reducer/DataFetch';
+import MyComponent from './components/use-callback/ParentComponent';
 
 function App() {
   return (
