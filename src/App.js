@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import MyComponent from './components/use-callback/ParentComponent';
+import MyComponent from './components/use-ref/Timer';
 
 function App() {
   return (
