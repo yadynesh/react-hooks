@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+
+
+// demonstrate useEffect which runs only once.
 export default function HookCounterInterval(props) {
     const [count, setCount] = useState(0)
 

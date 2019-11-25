@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-function HookCounter1(props) {
+export default function CounterSimpleState(props) {
     const [count, setCount] = useState(0);
     return (
         <div>
@@ -15,4 +15,3 @@ function HookCounter1(props) {
     );
 }
 
-export default HookCounter1;

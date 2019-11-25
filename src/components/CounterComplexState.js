@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-function HookCounter2(props) {
+export default function CounterComplexState(props) {
     const [name, setName] = useState({
         firstName: '',
         lastName: ''
@@ -24,4 +24,3 @@ function HookCounter2(props) {
     );
 }
 
-export default HookCounter2;

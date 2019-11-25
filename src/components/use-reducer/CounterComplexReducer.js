@@ -13,7 +13,9 @@ const reducer = (count, action) => {
             return count;            
     }
 }
-export default function CounterComplex(props) {
+
+// demonstrate complex state object in reducer
+export default function CounterComplexReducer(props) {
     const [count, dispatch] = useReducer(reducer, initialCount);
     return (
         <div>

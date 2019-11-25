@@ -13,7 +13,9 @@ const reducer = (count, action) => {
             return count;            
     }
 }
-export default function Counter(props) {
+
+// demonstrate simple state object in reducer
+export default function CounterSimpleReducer(props) {
     const [count, dispatch] = useReducer(reducer, initialCount);
     return (
         <div>

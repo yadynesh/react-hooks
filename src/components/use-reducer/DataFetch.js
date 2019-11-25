@@ -6,6 +6,7 @@ const initialState = {
     post: {},
     error: '',
 }
+
 const reducer = (state, action) => {
     switch(action.type) {
         case 'FETCH_SUCCESS':
@@ -24,6 +25,8 @@ const reducer = (state, action) => {
             return state;            
     }
 }
+
+// demonstrate http call and dispatch with reducer
 export default function DataFetch(props) {
     const [state, dispatch] = useReducer(reducer, initialState);
 

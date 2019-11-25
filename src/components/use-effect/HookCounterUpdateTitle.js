@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-function HookCounter1(props) {
+
+// updates title only when count changes
+export default function HookCounterUpdateTitle(props) {
     const [count, setCount] = useState(0);
     const [name, setName] = useState('');
     useEffect(() => {
@@ -21,5 +23,3 @@ function HookCounter1(props) {
         </div>
     );
 }
-
-export default HookCounter1;

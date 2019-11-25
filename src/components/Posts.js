@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-function HookCounter3(props) {
+export default function Posts(props) {
     const [names, setNames] = useState([]);
     
     const addItem = (firstName, lastName) => {
@@ -21,5 +21,3 @@ function HookCounter3(props) {
         
     );
 }
-
-export default HookCounter3;
